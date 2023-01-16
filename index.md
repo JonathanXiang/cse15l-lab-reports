@@ -56,4 +56,6 @@ should see a screen like the image below.
 
 ![Image](LoggedIn.png)
 
+Step 3: Try Running Some Commands
+
 
