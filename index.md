@@ -28,9 +28,11 @@ and select "Git Bash" from the options.
 (Yours won't say recently used)
 
 
+
 ![Image](GitBashOption.png)
 
 (Yours won't say profiles)
+
 
 
 Now, in your terminal window, click the "+" icon. This new terminal is a git
