@@ -35,8 +35,11 @@ and select "Git Bash" from the options.
 
 
 
-Now, in your terminal window, click the "+" icon. This new terminal is a git
+Now, in your terminal window, click the "+" icon. For me this was in the upeer
+right hand corner, but it maybe different for you. This new terminal is a git
 bash terminal.
+
+![Image](image.png)
 
 If you are on mac, you don't have to do any of these steps as git bash is
 automatically installed!
