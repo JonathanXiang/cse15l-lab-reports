@@ -35,7 +35,7 @@ and select "Git Bash" from the options.
 
 
 
-Now, in your terminal window, click the "+" icon. For me this was in the upeer
+Now, in your terminal window, click the "+" icon. For me this was in the upper
 right hand corner, but it maybe different for you. This new terminal is a git
 bash terminal.
 
