@@ -1,5 +1,5 @@
 # How to Log into Your CSE 15 Account on ieng6
-By Jonathan Xiang
+By: Jonathan Xiang
 
 
 ## Step 1: Install Visual Studio Code
