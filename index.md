@@ -58,4 +58,12 @@ should see a screen like the image below.
 
 Step 3: Try Running Some Commands
 
+You have already sucessfully logged in using your CSE 15L specific
+account, now you can try to run some commands. Some examples of commands
+you can try are cd, pwd, lwd, cp, and cat.
 
+Personally, I used the ls -a command, which shows all the files in the
+current directory, including all the hidden files, which are preceeded
+by periods. This was the result.
+
+![Image]()
