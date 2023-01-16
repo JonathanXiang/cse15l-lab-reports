@@ -9,4 +9,5 @@ Visual Studio Code for whatever operating system your device is using.
 When you are done downloading, launch VScode. Your screen should look
 something like the image below, though it may have a different color
 scheme.
+
 ![Image](VScodeStartScreen.png)
