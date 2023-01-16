@@ -14,7 +14,7 @@ scheme.
 ![Image](VScodeStartScreen.png)
 
 
-Step 2: Connect Remotely
+## Step 2: Connect Remotely
 
 To connect remotely, if you are on Windows you have to install git bash
 in Visual Studio Code. To do that, download git from this [link](https://gitforwindows.org/).
@@ -56,7 +56,7 @@ should see a screen like the image below.
 
 ![Image](LoggedIn.png)
 
-Step 3: Try Running Some Commands
+## Step 3: Try Running Some Commands
 
 You have already sucessfully logged in using your CSE 15L specific
 account, now you can try to run some commands. Some examples of commands
