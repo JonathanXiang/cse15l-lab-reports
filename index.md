@@ -54,6 +54,6 @@ this message. You will then be prompted for your password which you
 should then type in and after that you will be fully logged in and
 should see a screen like the image below.
 
-![Image]()
+![Image](LoggedIn.png)
 
 
