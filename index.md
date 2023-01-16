@@ -66,7 +66,7 @@ Personally, I used the ls -a command, which shows all the files in the
 current directory, including all the hidden files, which are preceeded
 by periods. This was the result.
 
-![Image](ls-acommand.png)
+![Image](ls-aCommand.png)
 
 Finally, when you want to stop testing commands, you can log out by
 typing the command Ctrl + D or be running the "exit" command in the
