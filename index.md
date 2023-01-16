@@ -24,11 +24,9 @@ then, open the command palette with Ctrl + Shift+ P, type in "Select Profile Def
 and select "Git Bash" from the options.
 
 ![Image](CommandPalette.png)
-
 (Yours won't say recently used)
 
 ![Image](GitBashOption.png)
-
 (Yours won't say profiles)
 
 
