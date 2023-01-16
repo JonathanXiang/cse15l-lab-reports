@@ -23,6 +23,15 @@ After that, launch VScode and open a terminal with the command Ctrl + \`,
 open the command palette with Ctrl + Shift+ P, type in "Select Profile Default",
 and select "Git Bash" from the options.
 
+![Image](CommandPalette.png)
+
+(Yours won't say recently used)
+
+![Image](GitBash.png)
+
+(Yours won't say profiles)
+
+
 Now, in your terminal window, click the "+" icon. This new terminal is a git
 bash terminal.
 
