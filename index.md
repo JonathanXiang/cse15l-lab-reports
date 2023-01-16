@@ -19,4 +19,14 @@ Step 2: Connect Remotely
 To connect remotely, if you are on Windows you have to install git bash
 in Visual Studio Code. To do that, download git from this [link](https://gitforwindows.org/).
 
-After that open a terminal on VScode with the command Ctrl + \`
+After that, launch VScode and open a terminal with the command Ctrl + \`,
+open the command palette with Ctrl + Shift+ P, type in "Select Profile Default",
+and select "Git Bash" from the options.
+
+Now, in your terminal window, click the "+" icon. This new terminal is a git
+bash terminal.
+
+If you are on mac, you don't have to do any of these steps as git bash is
+automatically installed!
+
+
