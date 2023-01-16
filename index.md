@@ -27,7 +27,7 @@ and select "Git Bash" from the options.
 
 (Yours won't say recently used)
 
-![Image](GitBash.png)
+![Image](GitBashOption.png)
 
 (Yours won't say profiles)
 
