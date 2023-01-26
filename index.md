@@ -4,12 +4,15 @@ By: Jonathan Xiang
 
 ## Step 1: Install Visual Studio Code
 
-To install Visual Studio Code, go to this [link](https://code.visualstudio.com/) and download
-Visual Studio Code for whatever operating system your device is using.
+To install Visual Studio Code, go to this [link](https://code.visualstudio.com/) and select
+whatever operating system your device is using (mac, Windows, etc.). After you have selected
+the correct operating system, click the download button.
 
-When you are done downloading, launch VScode. Your screen should look
-something like the image below, though it may have a different color
-scheme.
+When you are done downloading, launch the set up program (the thing you just downloaded).
+Following the steps it asks of you should lead you to finishing the installation.
+
+After that, launch VSCode. Your screen should look something like the image below, though
+it may have a different color scheme.
 
 ![Image](VScodeStartScreen.png)
 
