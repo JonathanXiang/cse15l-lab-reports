@@ -67,7 +67,7 @@ account, now you can try to run some commands. Some examples of commands
 you can try are:
 
 `cd`
-Changes directory to the inputted path
+- Changes directory to the inputted path
 `pwd`
 Prints the path of the directory you are currently in
 `ls`
