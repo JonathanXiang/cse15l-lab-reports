@@ -66,18 +66,13 @@ You have already successfully logged in using your CSE 15L specific
 account, now you can try to run some commands. Some examples of commands
 you can try are:
 
-`cd`
-- Changes directory to the inputted path
-`pwd`
-- Prints the path of the directory you are currently in
-`ls`
-- Lists all files and directories in your current directory
-`cp`
-- Copies the file inputted into the directory or other file inputted. The name of
+- `cd` Changes directory to the inputted path
+- `pwd` Prints the path of the directory you are currently in
+- `ls` Lists all files and directories in your current directory
+`cp` - Copies the file inputted into the directory or other file inputted. The name of
 the file you are trying to copy should come first, then the file or directory you
 are trying to copy the file to.
-`cat`
-- Prints out the content of the inputted file. You can print out the contents of
+`cat` - Prints out the content of the inputted file. You can print out the contents of
 multiple files by inputting multiple file names.
 
 Personally, I used the ls -a command, which shows all the files in the
