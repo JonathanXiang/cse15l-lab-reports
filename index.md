@@ -47,9 +47,9 @@ bash terminal.
 If you are on mac, you don't have to do any of these steps as git bash is
 automatically installed!
 
-To log in with your CSE 15L account, you will type in the command
-"ssh cs15wi23---@ieng6.ucsd.edu" except you will replace the "---"
-with the letters unique to your username.
+To log in with your CSE 15L account, you will type in the following command
+except you will replace the "---" with the letters unique to your username.
+>ssh cs15wi23---@ieng6.ucsd.edu
 
 Since it's your first time logging in you will get a message asking
 you if you are sure you want to continue connecting, type in "yes" to
