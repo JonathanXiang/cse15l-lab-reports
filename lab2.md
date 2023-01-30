@@ -53,3 +53,13 @@ You can also see that it is one line down because of "\n" we appended in the fir
 
 
 ## Part 2: Bug Testing from Lab 3
+
+In Lab 3, there is a bug in the averageWithoutLowest method in ArrayExamples where
+it removes all values that are equal to the lowest instead of just removing one.
+```
+@Test
+public void testAverageWithoutLowest(){
+  double[] input1 = {3.0, 3.0, 3.0, 9.0};
+  assertEquals(5.0, ArrayExamples.averageWithoutLowest(input1), 0);
+}
+```
