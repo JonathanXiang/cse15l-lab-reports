@@ -55,11 +55,28 @@ You can also see that it is one line down because of "\n" we appended in the fir
 ## Part 2: Bug Testing from Lab 3
 
 In Lab 3, there is a bug in the averageWithoutLowest method in ArrayExamples where
-it removes all values that are equal to the lowest instead of just removing one.
+it removes all values that are equal to the lowest instead of just removing one. Below
+are the tests I made for this method.
+
 ```
 @Test
-public void testAverageWithoutLowest(){
+public void testAverageWithoutLowest1(){
   double[] input1 = {3.0, 3.0, 3.0, 9.0};
   assertEquals(5.0, ArrayExamples.averageWithoutLowest(input1), 0);
 }
+```
+This test induces failure. Because multiple of the lowest value exists
+in the input list (3.0), all of them are removed and the average is calculated incorrectly.
+
+```
+@Test
+public void testAverageWithoutLowest2(){
+  double[] input1 = {3.0, 4.0, 5.0, 9.0};
+  assertEquals(6.0, ArrayExamples.averageWithoutLowest(input1), 0);
+}
+```
+This test doesn't induce failure. Because there is only one of the lowest value (3.0),
+only one value is removed and the average is calculated correctly
+
+```
 ```
