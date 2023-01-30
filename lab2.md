@@ -9,7 +9,6 @@ import java.net.URI;
 
 class Handler implements URLHandler{
     String storedString = "";
-
     public String handleRequest(URI url){
         if(url.getPath().contains("/add-message")){
             String[] parameters = url.getQuery().split("=");
@@ -21,7 +20,6 @@ class Handler implements URLHandler{
         }
     }
 }
-
 class StringServer{
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
