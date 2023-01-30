@@ -48,4 +48,8 @@ In this screenshot, the handleRequest method is also called. The relevant method
 this method are the same as above, but this timem storedString is changed differently.
 This time, "This is the second message, it is one line down" is the String appended.
 You can also see that it is one line down because of "\n" we appended in the first message.
+
 ![Image](secondmessage.png)
+
+
+## Part 2: Bug Testing from Lab 3
