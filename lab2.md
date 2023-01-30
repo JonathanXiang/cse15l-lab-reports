@@ -119,4 +119,6 @@ to subtract the lowest value from the sum at the end, which would have the same 
 fixes the bug because no matter how many values are equal to the lowest, the lowest value only gets removed once since `sum -= lowest`
 only runs once no matter what.
 
-## Part 3: 
+## Part 3: Something I Learned
+
+Something I learned in lab 3 was how to debug code with JUnit. You want to create failure inducing tests so you can know where your program is messing up.
