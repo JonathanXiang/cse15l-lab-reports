@@ -82,3 +82,37 @@ public void testAverageWithoutLowest2(){
 This test doesn't induce failure. Because there is only one of the lowest value (3.0),
 only one value is removed and the average is calculated correctly
 
+This is the code of `averageWithoutLowest()` before fixing the bug:
+```
+static double averageWithoutLowest(double[] arr) {
+  if(arr.length < 2) { return 0.0; }
+  double lowest = arr[0];
+  for(double num: arr) {
+    if(num < lowest) { lowest = num; }
+  }
+  double sum = 0;
+  for(double num: arr) {
+    if(num != lowest) { sum += num; }
+  }
+  return sum / (arr.length - 1);
+}
+```
+And this is the code after fixing the bug:
+
+```
+static double averageWithoutLowest(double[] arr) {
+  if(arr.length < 2) { return 0.0; }
+  double lowest = arr[0];
+  for(double num: arr) {
+    if(num < lowest) { lowest = num; }
+  }
+  double sum = 0;
+  for(double num: arr) {
+      sum += num;    
+  }
+  sum -= lowest;
+  return sum / (arr.length - 1);
+}
+```
+To fix the bug, I removed the if statement that prevented the lowest values from being added and instead added a `sum -= lowest`
+to subtract the lowest value from the sum at the end, which would have the same result as not including the lowest value.
