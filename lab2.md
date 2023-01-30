@@ -6,7 +6,6 @@ By Jonathan Xiang
 The code that I wrote for String Server is
 
 ```
-{
 import java.io.IOException;
 import java.net.URI;
 
@@ -32,7 +31,6 @@ class StringServer{
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-}
 }
 ```
 
