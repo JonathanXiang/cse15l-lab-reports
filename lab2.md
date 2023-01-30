@@ -5,7 +5,8 @@ By Jonathan Xiang
 
 The code that I wrote for String Server is
 
-`
+```
+{
 import java.io.IOException;
 import java.net.URI;
 
@@ -32,7 +33,8 @@ class StringServer{
         Server.start(port, new Handler());
     }
 }
-`
+}
+```
 
 ![Image](firstmessage.png)
 
