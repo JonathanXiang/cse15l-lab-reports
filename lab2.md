@@ -65,6 +65,8 @@ public void testAverageWithoutLowest1(){
   assertEquals(5.0, ArrayExamples.averageWithoutLowest(input1), 0);
 }
 ```
+
+![Image](TestAverage1.png)
 This test induces failure. Because multiple of the lowest value exists
 in the input list (3.0), all of them are removed and the average is calculated incorrectly.
 
@@ -75,8 +77,8 @@ public void testAverageWithoutLowest2(){
   assertEquals(6.0, ArrayExamples.averageWithoutLowest(input1), 0);
 }
 ```
+
+![Image](TestAverage2.png)
 This test doesn't induce failure. Because there is only one of the lowest value (3.0),
 only one value is removed and the average is calculated correctly
 
-```
-```
