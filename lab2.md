@@ -4,7 +4,8 @@ By Jonathan Xiang
 ##Part 1: String Server
 
 The code that I wrote for String Server is
-`import java.io.IOException;
+`
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler{
@@ -29,7 +30,8 @@ class StringServer{
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-}`
+}
+`
 
 ![Image](firstmessage.png)
 
