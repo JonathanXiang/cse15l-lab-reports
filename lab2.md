@@ -1,7 +1,7 @@
 # Lab 2
 By Jonathan Xiang
 
-##Part 1: String Server
+## Part 1: String Server
 
 The code that I wrote for String Server is below:
 
