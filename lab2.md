@@ -3,7 +3,7 @@ By Jonathan Xiang
 
 ##Part 1: String Server
 
-The code that I wrote for String Server is
+The code that I wrote for String Server is below:
 
 ```
 import java.io.IOException;
@@ -35,5 +35,12 @@ class StringServer{
 ```
 
 ![Image](firstmessage.png)
+
+In this screenshot, the handleRequest method is called. The relevant
+values for this method are the url, given as a parameter which the
+method uses to see what it should do, and the storedString, which is
+the String the method will add to everytime "/add-message" is used.
+In this case, storedString was changed since "Hello" and "\n" were
+concatenated to it.
 
 ![Image](secondmessage.png)
