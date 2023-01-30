@@ -34,13 +34,17 @@ class StringServer{
 }
 ```
 
-![Image](firstmessage.png)
-
-In this screenshot, the handleRequest method is called. The relevant
-values for this method are the url, given as a parameter which the
+In the screenshot below, the handleRequest method is called. The relevant
+values for this method are the URI called url, given as a parameter which the
 method uses to see what it should do, and the storedString, which is
 the String the method will add to everytime "/add-message" is used.
-In this case, storedString was changed since "Hello" and "\n" were
-concatenated to it.
+In this case, storedString was changed since "Hello, this is the first message"
+and "\n" were concatenated to it.
 
+![Image](firstmessage.png)
+
+
+In this screenshot, the handleRequest method is also called. The relevant methods to
+this method are the same as above, but this timem storedString is changed differently.
+This time, ""
 ![Image](secondmessage.png)
