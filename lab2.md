@@ -115,4 +115,8 @@ static double averageWithoutLowest(double[] arr) {
 }
 ```
 To fix the bug, I removed the if statement that prevented the lowest values from being added and instead added a `sum -= lowest`
-to subtract the lowest value from the sum at the end, which would have the same result as not including the lowest value.
+to subtract the lowest value from the sum at the end, which would have the same result as not including the lowest value. This
+fixes the bug because no matter how many values are equal to the lowest, the lowest value only gets removed once since `sum -= lowest`
+only runs once no matter what.
+
+## Part 3: 
