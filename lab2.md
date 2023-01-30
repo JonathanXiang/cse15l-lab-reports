@@ -121,4 +121,6 @@ only runs once no matter what.
 
 ## Part 3: Something I Learned
 
-Something I learned in lab 3 was how to debug code with JUnit. You want to create failure inducing tests so you can know where your program is messing up.
+Something I learned in lab 3 was how to debug code with JUnit. Using the`assertEquals()` method, we can test to see if two values are equal, allowing us to test
+whether our methods have the desired outputs with given inputs. I also learned that an @Test is written before a test method to indicate it is a test to JUnit. This
+way you can decide what you want to be a test and what you don't. Lastly, I also learned that when designing tests, you want to create tests that could be failure inducing. That way you can find where in your method there is an error and make sure you are not missing an error your tests didn't find.
