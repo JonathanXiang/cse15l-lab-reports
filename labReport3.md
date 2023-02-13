@@ -1,5 +1,5 @@
 # Lab 3: The find command
 By Jonathan Xiang
 
-# Iname
+# The iname option
 ![](find-iname.png)
