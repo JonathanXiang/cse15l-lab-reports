@@ -32,4 +32,4 @@ In this example, you can see that running the command using `-type d` returns yo
 
 The image above shows the `find` command executing with the `-empty` option. I created a new empty file called "New Text Document" and a new empty directory called "New Folder" to show that `-empty` works.
 
-![]()
+![](find-empty.png)
