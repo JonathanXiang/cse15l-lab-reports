@@ -2,4 +2,4 @@
 By Jonathan Xiang
 
 # Iname
-![](find-print.png)
+![](find-iname.png)
