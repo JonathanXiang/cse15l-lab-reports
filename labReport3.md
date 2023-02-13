@@ -6,4 +6,5 @@ By Jonathan Xiang
 
 ![](find-iname.png)
 
-As you can see in the image above, the key difference between `iname` and `-name` is that `iname` isn't case sensitive. This command is especially useful if you want to find a file with the find command and you know the name, but not to a super accurate degree. This allows you to find a file even if your capitalization is wrong.
+As you can see in the image above, the key difference between `-iname` and `-name` is that `-iname` isn't case sensitive. This command is especially useful if you want to find a file with the find command and you know the name, but not to a super accurate degree. `-iname` allows you to find a file even if your capitalization is wrong.
+
