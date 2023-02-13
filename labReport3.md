@@ -20,3 +20,4 @@ The downside to `-iname` is that if you do know the capitalization of the file y
 
 In the image above, I searched all of written_2 for only directories. As you can see, the result is a list of all the directories in written_2, including written_2 itself (written_2 was shown because my working directory was the folder containing written_2). The option I used to do this was `-type d`. In this option, the "d" specifies that the type we are searching for is directories.
 
+![](find-type2.png)
