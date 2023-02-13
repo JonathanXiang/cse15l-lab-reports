@@ -44,4 +44,6 @@ Furthermore, in the image above, you can see that by combining the use of the `-
 
 As you can see, by limiting the "depth" to 1, the find command only returns written_2 and the directories inside written_2, but doesn't return anything in those directories.
 
-![]
+![](find-maxdepth2.png)
+
+By increasing the maximmum "depth" to 2, the find command can now look one directory deeper. In this case, find can find the directories of "berlitz1", "berlitz2", and "OUP" in addition to the directories that find could find with a maximum "depth" of 1.
