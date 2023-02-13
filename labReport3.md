@@ -24,4 +24,10 @@ In the image above, I searched all of written_2 for only directories. As you can
 
 In this example, you can see that running the command using `-type d` returns you the path to the Abernathy directory. On the other hand, using `-type f` returns the path to all the files in Abernathy, but doesn't return the path to the Abernathy directory itself. While `-type d` returns only directories, `-type f` returns only files
 
-## The option
+## The empty option
+
+`-empty` is an option for the find command that allows you to only search for empty files and directories.
+
+![](find-empty.png)
+
+The image above shows the `find` command executing with the `-empty` option. I created a new empty file called "New Text Document" to show that 
