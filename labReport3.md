@@ -30,10 +30,14 @@ In this example, you can see that running the command using `-type d` returns yo
 
 ![](find-empty2.png)
 
-The image above shows the `find` command executing with the `-empty` option. I created a new empty file called "New Text Document" and a new empty directory called "New Folder" to show that `-empty` works.
+The image above shows the `find` command executing with the `-empty` option. I created a new empty file called "New Text Document" and a new empty directory called "New Folder" to show that `-empty` works. As you can see, the new file and directory are both shown.
 
 ![](find-empty.png)
 
 Furthermore, in the image above, you can see that by combining the use of the `-empty` and `-type d` commands, we can exclusively search for empty directories. The `-empty` command can be useful for finding folders and files that are not in use.
 
-## The option
+## The maxdepth option
+
+`-maxdepth` is an option that limits the amount of directories that find can go into when finding files.
+
+!
