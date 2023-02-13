@@ -40,4 +40,8 @@ Furthermore, in the image above, you can see that by combining the use of the `-
 
 `-maxdepth` is an option that limits the amount of directories that find can go into when finding files.
 
-!
+![](find-maxdepth.png)
+
+As you can see, by limiting the "depth" to 1, the find command only returns written_2 and the directories inside written_2, but doesn't return anything in those directories.
+
+![]
