@@ -30,4 +30,4 @@ In this example, you can see that running the command using `-type d` returns yo
 
 ![](find-empty.png)
 
-The image above shows the `find` command executing with the `-empty` option. I created a new empty file called "New Text Document" to show that 
+The image above shows the `find` command executing with the `-empty` option. I created a new empty file called "New Text Document" and a new empty directory called "New Folder" to show that
