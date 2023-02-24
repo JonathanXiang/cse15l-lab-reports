@@ -1,7 +1,7 @@
 # Lab 3: The find command
 By Jonathan Xiang
 
-## The iname option [Source](https://www.computerhope.com/unix/ufind.htm)
+## The iname option - [Source](https://www.computerhope.com/unix/ufind.htm)
 `-iname` is an option for the find command that works very similairly to `-name`
 
 ![](find-iname.png)
