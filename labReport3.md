@@ -12,7 +12,7 @@ As you can see in the image above, the key difference between `-iname` and `-nam
 
 The downside to `-iname` is that if you do know the capitalization of the file you're trying to find, it may give you more information than you need. In the image above, `-name` is able to find the specific WhereToJapan.txt file, while the `-iname` finds that file but also find the wheretojapan.txt file, which you may not want. This may become a bigger problem if you had a lot more files named "wheretojapan" in various formats, cause then you wouldn't be able to easily find the actual file that you want.
 
-## The type option
+## The type option - [Source](https://www.computerhope.com/unix/ufind.htm)
 
 `-type` is an option for the find command that allows you to search for only a specific type of file.
 
@@ -24,7 +24,7 @@ In the image above, I searched all of written_2 for only directories. As you can
 
 In this example, you can see that running the command using `-type d` returns you the path to the Abernathy directory. On the other hand, using `-type f` returns the path to all the files in Abernathy, but doesn't return the path to the Abernathy directory itself. While `-type d` returns only directories, `-type f` returns only files
 
-## The empty option
+## The empty option - [Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 `-empty` is an option for the find command that allows you to only search for empty files and directories.
 
@@ -36,7 +36,7 @@ The image above shows the `find` command executing with the `-empty` option. I c
 
 Furthermore, in the image above, you can see that by combining the use of the `-empty` and `-type d` commands, we can exclusively search for empty directories. The `-empty` command can be useful for finding folders and files that are not in use.
 
-## The maxdepth option
+## The maxdepth option - [Source](https://www.computerhope.com/unix/ufind.htm)
 
 `-maxdepth` is an option that limits the amount of directories that find can go into when finding files.
 
