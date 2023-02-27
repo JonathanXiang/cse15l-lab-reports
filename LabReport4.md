@@ -47,4 +47,4 @@ Because I used the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *
 
 *Keys Pressed:* git add ListExamples.java`<enter>`git commit -m "Fixed the Error in ListExamples so it works"`<enter>`git push`<enter>`
 
-To commit and push the file to my forked repository, I run the git add, commit, and push commands in that order. I only added ListExamples.java because it is the only file I changed.
+To commit and push the file to my forked repository, I ran the git add, commit, and push commands in that order. I only added ListExamples.java because it is the only file I changed.
