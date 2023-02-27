@@ -41,4 +41,10 @@ I opened ListExamples.java in nano and then used the arrow keys to navigate to w
 
 Because I used the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` commands in a previous step, I could access those commands again using the up and down arrow keys. I first accessed `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` by hitting the up arrow three times. Then, because I just added the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command to my command history, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was also three up arrow keys away.
 
-## Step 9
+## Step 9 - Commiting and Pushing Changes
+
+![](Step9Push.png)
+
+*Keys Pressed:* git add ListExamples.java`<enter>`git commit -m "Fixed the Error in ListExamples so it works"`<enter>`git push`<enter>`
+
+To commit and push the file to my forked repository, I run the git add, commit, and push commands in that order. I only added ListExamples.java because it is the only file I changed.
