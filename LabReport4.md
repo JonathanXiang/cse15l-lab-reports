@@ -19,7 +19,7 @@ Since I had generated an ssh key for my github before, I was able to use the rep
 
 ## Step 6 - Running the Test
 
-![](Step6Tests.png)
+![](Step6Test.png)
 
 *Keys Pressed:* cd lab7`<enter><ctrl + v><enter>`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java`<enter>`
 
