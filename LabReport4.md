@@ -5,6 +5,8 @@ By Jonathan Xiang
 
 ![](Step4LogIn.png)
 
-To log into ieng6, I opened a new terminal a typed in the command `ssh cs15lwi23aoy@ieng6.ucsd.edu`. Because I previously generated an ssh key for the computer I'm using, I did not have to type in the password.
+*Keys Pressed:* ssh cs15lwi23aoy@ieng6.ucsd.edu
+
+Because
 
 ## Step 5 - 
