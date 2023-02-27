@@ -35,4 +35,10 @@ I opened ListExamples.java in nano and then used the arrow keys to navigate to w
 
 ## Step 8 - Rerunning the Test
 
-![](Step8TestRerun)
+![](Step8TestRerun.png)
+
+*Keys Pressed:* `<up><up><up><enter><up><up><up><enter>`
+
+Because I used the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` commands in a previous step, I could access those commands again using the up and down arrow keys. I first accessed `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` by hitting the up arrow three times. Then, because I just added the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command to my command history, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was also three up arrow keys away.
+
+## Step 9
