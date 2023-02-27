@@ -33,4 +33,6 @@ Before doing the tasks, I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/juni
 
 I opened ListExamples.java in nano and then used the arrow keys to navigate to where I needed to edit the file, changing an `index1` to an `index2`.
 
-## Step 8 - 
+## Step 8 - Rerunning the Test
+
+![](Step8TestRerun)
