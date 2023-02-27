@@ -21,10 +21,10 @@ Since I had generated an ssh key for my github before, I was able to use the rep
 
 ![](Step6Tests.png)
 
-*Keys Pressed:* cd lab7`<enter>``<ctrl + v>``<enter>`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java`<enter>`
+*Keys Pressed:* cd lab7`<enter><ctrl + v><enter>`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java`<enter>`
 
 Before doing the tasks, I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to my clipboard, allowing me to use `ctrl + v` to quickly paste the command down.
 
 ## Step 7 - Fixing the Test
 
-*Keys Pressed:* nano ListExamples.java`<enter>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<right>``<right>``<right>``<right>``<right>``<right>``<right>``<right>``<right>``<right>``<right>``<right>``<backspace>`2`<ctrl + o>``<enter>``<ctrl + x>`
+*Keys Pressed:* nano ListExamples.java`<enter><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right><backspace>`2`<ctrl + o><enter><ctrl + x>`
