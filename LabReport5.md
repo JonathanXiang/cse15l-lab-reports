@@ -33,3 +33,5 @@ As you can see, `ls -r` lists the files in reverse order. Since `ls` lists files
 As you can see, `ls -t` lists the files in order of timeodified/created, with the most recent modification/creation being first, and the least recent being last. We can tell this is true because by using `ls -l -t` , we can see the data and time modified/created side by side with the order of files.
 
 ![](lstOption2.png)
+
+Additionally, by using `ls -t -r`, we can see the files in reverse time order. This is useful for accessing old files that you haven't modified in a long time.
